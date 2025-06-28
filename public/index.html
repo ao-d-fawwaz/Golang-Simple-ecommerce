@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple E-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="#" onclick="showHome()">Home</a>
+    <a href="#" onclick="showCart()">Cart</a>
+    <span id="authLinks">
+      <a href="#" onclick="showLogin()">Login</a>
+      <a href="#" onclick="showRegister()">Register</a>
+    </span>
+    <span id="logoutLink" style="display:none;">
+      <a href="#" onclick="logout()">Logout</a>
+    </span>
+  </header>
+  <div id="content">
+    Loading...
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
